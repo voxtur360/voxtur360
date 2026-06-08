@@ -1,0 +1,25 @@
+
+:root{--red:#f40009;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Lato',sans-serif;color:#111;background:#fff;}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:30px 6%;}
+.logo-area h1{font-size:28px;}
+.tagline{font-size:14px;margin-top:4px;}
+nav{display:flex;align-items:center;gap:30px;}
+nav a{text-decoration:none;color:#111;transition:.3s;}
+nav a:hover{color:#f40009;}
+.btn,.email-btn{
+background:#f40009;color:#fff;text-decoration:none;
+padding:14px 28px;border-radius:50px;border:1px solid #f40009;
+transition:.3s;
+}
+.btn:hover,.email-btn:hover{background:#000;border-color:#000;color:#fff;}
+.hero{min-height:70vh;padding:8% 10%;display:flex;flex-direction:column;justify-content:center;}
+.hero h1{font-size:clamp(60px,8vw,120px);font-weight:900;line-height:1;}
+.hero p{margin-top:30px;max-width:700px;font-size:20px;line-height:1.8;}
+.email-cta{text-align:center;padding:120px 20px;}
+.email-cta h2{margin-bottom:30px;font-size:42px;}
+footer{padding:60px;border-top:1px solid #eee;}
+.socials{display:flex;justify-content:center;gap:25px;}
+.socials a{font-size:24px;color:#111;}
+.socials a:hover{color:#f40009;}
